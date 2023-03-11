@@ -127,7 +127,7 @@ with tab2:
 
         return data
 
-    if st.button('Recommend'):
+    if st.button('Recommend-📘'):
         data = recommend(selected_book_name)
         for i in data:
             col1, col2 = st.columns([1,6])
