@@ -4,6 +4,7 @@ import pickle
 import pandas as pd
 import requests
 from PIL import Image
+import numpy as np
 
 st.set_page_config(
     page_title='Akku-Dashboard',
