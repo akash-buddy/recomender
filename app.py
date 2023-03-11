@@ -96,8 +96,8 @@ with tab2:
     image=Image.open('bokk.png')
     edited=image.resize((3060,500))
     st.image(edited,use_column_width=True)
-    st.title('Book Recommender System')
 
+    st.title('Book Recommender System')
     popular_df = pickle.load(open('popular.pkl','rb'))
     pt = pickle.load(open('pt.pkl','rb'))
     books = pickle.load(open('books.pkl','rb'))
@@ -127,7 +127,7 @@ with tab2:
 
         return data
 
-    if st.button('Recommend-📘'):
+    if st.button('Recommend1'):
         data = recommend(selected_book_name)
         for i in data:
             col1, col2 = st.columns([1,6])
