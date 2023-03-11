@@ -12,7 +12,7 @@ st.set_page_config(
 tab1,tab2=st.tabs(['MOVIES-RECOMMENDER','BOOKS-RECOMMENDER'])
                   
 with tab1:
-    image=Image.open('movi.jpg')
+    image=Image.open('movi.png')
     edited=image.resize((3060,500))
     st.image(edited,use_column_width=True)
     
@@ -93,6 +93,6 @@ with tab1:
             st.header(names[14])
             st.image(posters[14])
 with tab2:
-    image=Image.open('bokk.jpg')
+    image=Image.open('bokk.png')
     edited=image.resize((3060,500))
     st.image(edited,use_column_width=True)
