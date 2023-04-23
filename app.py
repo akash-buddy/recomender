@@ -7,7 +7,7 @@ from PIL import Image
 import numpy as np
 
 st.set_page_config(
-    page_title='Akku-Dashboard',
+    page_title='Akku-Recommender',
     layout='wide'
 )
 tab1,tab2=st.tabs(['MOVIES-RECOMMENDER','BOOKS-RECOMMENDER'])
